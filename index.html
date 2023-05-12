@@ -1,0 +1,216 @@
+<!doctype html>
+<!-- https://www.figma.com/file/bAt0X7a1V0WUewbhjXs1rI/Untitled?node-id=0%3A1&t=Q21teC4Iy3TaucQW-1 -->
+
+<html>
+
+<head>
+    <title>Mindy Xie's Home Page</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <header class="navigation" style="display:flex;">
+        <div class="inline-block logo">
+            <image src="./img/main/logo.png" alt="logo-removebg-preview" style="width: 30%; padding-left: 30px;">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li>Works</li>
+                <li>Skills</li>
+                <li>
+                    <button id="linkedin" class="btn-resume">LinkedIn</button>
+                </li>
+                <li>
+                    <button class="btn-resume" id="resume">Resume</button>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="inline-block" style="margin-left: auto;">
+            <button id="outlook" class="resume-button button">Get in touch</button>
+        </nav>
+    </header>
+
+
+    <section class="heroImg">
+        <div class="heroImg-container">
+            <div class="heroImg-photo">
+                <image class="pic" src="./img/main/pic.png" alt="logo-removebg-preview"></image>
+            </div>
+            <div class="heroImg-content">
+                <p class="intro-msg1">Hello, I'm <span class="intro-msg2">Mindy Xie</span>
+                    <span class="intro-msg1">.</span>
+                </p>
+                <div class="intro-msg3">
+                    <span>
+                        A driven product designer in Toronto, pursuit of details,
+                    </span>
+                    <span>
+                        good at creating and solving product problems.
+                    </span>
+                </div>
+                <br>
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="width: 7%;"> <span class="material-symbols-outlined">
+                                    business_center
+                                </span></td>
+                            <td style="width: 93%;">UX/UI Designer</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 7%;">&nbsp;</td>
+                            <td style="width: 93%;">Interior Designer</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 7%;"> <span class="material-symbols-outlined">
+                                    import_contacts
+                                </span></td>
+                            <td style="width: 93%;">B.A in Interior Design at Toronto Metropolitan University</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 7%;">&nbsp;</td>
+                            <td style="width: 93%;">UX/UI Design Bootcamp Certificate at University of Toronto</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <br>
+                <button id="resume" class="button center">Download Resume</button>
+            </div>
+    </section>
+
+    <!-- My UX Skills section coded using CSS flex -->
+    <section class="mySkills">
+        <h1>My Skills</h1>
+        <div class="flexContainer">
+            <div>
+                <image class="inline-block logo" src="./img/main/briefcase.png" alt="briefcase-preview"></image>
+                <h3>UX/UI Designer</h3>
+                <h3>Interior Designer</h3>
+                <p></p>
+            </div>
+            <div>
+                <image class="inline-block logo" src="./img/main/book.png" alt="briefcase-preview"></image>
+                <h3>B.A in Interior Design at Toronto Metropolitan University</h3>
+                <h3>UX/UI Design Bootcamp Certificate at University of Toronto</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- My Works -->
+    <section class="myWork">
+        <h1>My Works</h1>
+        <div class="workGrid">
+            <div class="voluble-container">
+                <div class="voluble">
+                    <image class="voluble-img" src="./img/main/voluble.png" alt="briefcase-preview"></image>
+                </div>
+                <div class="voluble-up">
+                    <image class="voluble-img" src="./img/main/voluble-up.png" alt="briefcase-preview"></image>
+                </div>
+                <div class="voluble-down">
+                    <image class="voluble-img" src="./img/main/voluble-down.png" alt="briefcase-preview"></image>
+                </div>
+                <div class="image-removebg-preview">
+                    <image class="removebg-img" src="./img/main/image-removebg-preview.png" alt="briefcase-preview">
+                    </image>
+                </div>
+                <div class="string">
+                    <p>Designing the mobile app to encourage language learner’s speaking skills in a safe and immersive
+                        way.</p>
+                </div>
+                <div class="btn">
+                    <button id="voluble-btn" class="voluble-btn">View Case Study</button>
+                </div>
+            </div>
+
+            <div class="ca-post-container">
+                <div class="ca-post-large">
+                    <image class="ca-post-large" src="./img/main/ca-post-large.png" alt="ca-post-large"></image>
+                </div>
+                <div class="ca-post-sml">
+                    <image class="ca-post-sml" src="./img/main/ca-post-sml.png" alt="ca-post-sml"></image>
+                </div>
+                <div class="ca-post-title">
+                    <span class="red">Canada </span>
+                    <span class="blue">Post</span>
+                </div>
+                <div class="ca-post-str">
+                    <p style="margin-top: -20px;">Redesigning the landing page of Canada Post.</p>
+                </div>
+                <div class="ca-post-btn">
+                    <button class="voluble-btn dark-blue">View Case Study</button>
+                </div>
+            </div>
+
+            <div class="the-stop-container">
+                <div class="the-stop-logo">
+                    <image class="the-stop-logo" src="./img/main/the-stop-logo.png" alt="the-stop-logo"></image>
+                </div>
+                <div class="the-stop-str">
+                    <p style="margin-top: -20px;">Redesigning the website of The Stop make it more easy-to- navigate.
+                    </p>
+                </div>
+                <div class="the-stop-btn">
+                    <button class="voluble-btn purple">View Case Study</button>
+                </div>
+                <div class="the-stop-large">
+                    <image class="the-stop-large" src="./img/main/the-stop-large.png" alt="the-stop-large"></image>
+                </div>
+                <div class="the-stop-sml">
+                    <image class="the-stop-sml" src="./img/main/the-stop-sml.png" alt="the-stop-sml"></image>
+                </div>
+            </div>
+            <h3>Vill all projects</h3>
+
+            <!-- Skills -->
+            <div>
+                <h1 style="text-align: left" id="slideContainer">My Skills</h1>
+                <div class="skills-container">
+                    <div class="skills" id="ProductDesign"> Product Design </div>
+                    <div class="skills" id="Prototyping"> Prototyping </div>
+                    <div class="skills" id="WebDesign"> Web Design </div>
+                    <div class="skills" id="MobileDesign"> Mobile Design </div>
+                    <div class="skills" id="UIDesign"> UI Design </div>
+                    <div class="skills" id="UXDesign"> UX Design </div>
+                    <div class="skills" id="DesignThinking"> Design Thinking </div>
+                    <div class="skills" id="UserResearch"> User Research </div>
+                    <div class="skills" id="Coding"> Coding </div>
+                    <div class="skills" id="_3DPrint"> 3D Print </div>
+                    <div class="skills" id="AdobeInDesign"> Adobe InDesign </div>
+                    <div class="skills" id="AdobePhotoshop"> Adobe Photoshop </div>
+                    <div class="skills" id="AdobeIllustrator"> Adobe Illustrator </div>
+                    <div class="skills" id="Figma"> Figma </div>
+                    <div class="skills" id="AutoCAD"> AutoCAD </div>
+                    <div class="skills" id="Rhinoceros"> Rhinoceros </div>
+                    <div class="skills" id="Revit"> Revit </div>
+                    <div class="skills" id="SketchUp"> SketchUp </div>
+                    <div class="skills" id="Miro"> Miro </div>
+                    <div class="skills" id="Invision"> Invision </div>
+                </div>
+            </div>
+    </section>
+</body>
+
+
+<footer>
+    <span class="center"> Keep in Touch</span>
+    <div class="center">
+        <image id="outlook" class="social" src="./img/main/mail.png" alt="mail"></image>
+        <image id="instagram" class="social" src="./img/main/Instagram.png" alt="mail"></image>
+        <image id="linkedin" class="social" src="./img/main/linkedin.png" alt="linkedin"></image>
+    </div>
+</footer>
+
+</html>
