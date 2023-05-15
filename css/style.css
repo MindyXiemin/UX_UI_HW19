@@ -209,8 +209,8 @@ table {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-        " . . . voluble-up ."
-        " image-removebg-preview . voluble voluble-up ."
+        " image-removebg-preview . . voluble-up ."
+        " . . voluble voluble-up ."
         " string . voluble voluble-down ."
         " btn . voluble voluble-down .";
 }
@@ -225,7 +225,7 @@ table {
 
 .voluble-down {
     grid-area: voluble-down;
-    margin-top: 12%;
+    margin-top: 25px;
 }
 
 .image-removebg-preview {
@@ -242,11 +242,12 @@ table {
 }
 
 .voluble-img {
-    width: 80%;
+    width: 60%;
 }
 
 .removebg-img {
-    width: 60%;
+    width: 200px;
+    margin-top: 80px;
 }
 
 .voluble-btn {
