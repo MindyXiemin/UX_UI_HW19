@@ -234,7 +234,7 @@ table {
 
 .string {
     grid-area: string;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .btn {
@@ -242,7 +242,7 @@ table {
 }
 
 .voluble-img {
-    width: 60%;
+    width: 80%;
 }
 
 .removebg-img {
