@@ -1,8 +1,12 @@
 .header {
-    background-color: #373738;
+    background-color: #ffffff;
     color: white;
 }
-
+.navigation{
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
 li {
     display: inline-block;
     margin: 0 10px;
@@ -119,7 +123,7 @@ body {
 
 .resume-button {
     margin-top: 10px;
-    margin-right: 60px;
+    margin-left: 60px;
 }
 
 .dowmload {
@@ -242,7 +246,7 @@ table {
 }
 
 .voluble-img {
-    width: 80%;
+    width: 60%;
 }
 
 .removebg-img {
@@ -278,7 +282,7 @@ table {
         " ca-post-large . . . ."
         " ca-post-large ca-post-sml ca-post-title ca-post-title ."
         " ca-post-large ca-post-sml ca-post-str ca-post-str ."
-        " ca-post-large ca-post-sml ca-post-btn ca-post-btn .";
+        " ca-post-large ca-post-sml ca-post-btn . .";
 }
 
 
@@ -328,7 +332,8 @@ table {
 
 .dark-blue {
     background: #014990 !important;
-    margin-top: -20px;
+    /* margin-top: -20px; */
+    padding-left: 10px;
 }
 
 

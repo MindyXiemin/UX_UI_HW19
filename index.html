@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header class="navigation" style="display:flex;">
+    <header id="myHeader" class="navigation">
         <div class="inline-block logo">
             <image src="./img/main/logo.png" alt="logo-removebg-preview" style="width: 30%; padding-left: 30px;">
         </div>
@@ -44,7 +44,20 @@
         </nav>
     </header>
 
-
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
     <section class="heroImg">
         <div class="heroImg-container">
             <div class="heroImg-photo">
@@ -90,7 +103,7 @@
                 </table>
                 <br>
                 <br>
-                <button id="resume" class="button center">Resume</button>
+                <button id="resume" class="button">Resume</button>
             </div>
     </section>
 
@@ -161,6 +174,7 @@
 
 
             <!-- Skills -->
+            <br>
             <div>
                 <h1 style="text-align: left" id="slideContainer">Skills</h1>
                 <div class="skills-container">

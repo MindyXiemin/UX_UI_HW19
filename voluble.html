@@ -34,15 +34,18 @@
         integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
         crossorigin="anonymous"></script>
 
-
-    <header class="navigation row" style="display:flex;">
+    <header class="navigation row header" id="myHeader">
         <div class="inline-block col-3" style="padding-left: 150px; margin-top: 10px;">
             <image src="./img/main/logo.png" alt="logo-removebg-preview" style="width: 60%;">
         </div>
         <nav class="inline-block col-6">
             <div class="row" style="padding-left: 250px; padding-right: 50px;">
-                <div class="col header-line">Works</div>
-                <div class="col header-line">Skills</div>
+                <div class="col header-line">
+                    <button id="linkedin" class="btn-resume">Works</button>
+                </div>
+                <div class="col header-line">
+                    <button id="linkedin" class="btn-resume">Skills</button>
+                </div>
                 <div class="col header-line">
                     <button id="linkedin" class="btn-resume">LinkedIn</button>
                 </div>
@@ -57,6 +60,20 @@
         </nav>
     </header>
 
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
     <section class="myWork">
         <div class="voluble1-container">
             <div class="voluble1-left">
@@ -503,7 +520,7 @@
     <br>
     <br>
     <br>
-    <br>    <br>
+    <br> <br>
     <br>
     <br> <br>
     <br>
